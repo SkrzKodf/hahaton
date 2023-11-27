@@ -20,7 +20,7 @@ app.use(express.static(__dirname + '/src'));
 
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/main.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
 app.use("/application",applicationRouter);
